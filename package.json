@@ -1,0 +1,11 @@
+{
+  "name": "panelscroller",
+  "version": "1.0.0",
+  "description": "A very simple JavaScript library for move around the page using the viewport height size.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauricio <mauxms1996@gmail.com> (https://github.com/maux96)",
+  "license": "MIT"
+}
