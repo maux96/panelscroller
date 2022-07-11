@@ -10,6 +10,12 @@ npm install panelscroller
 ```
 
 ## Use 
+
+First, import the package
+```javascript
+import { PanelScrollManager } from 'panelscroller/panelscroller'
+```
+
 We define a panel as a compoent with height size as window viewport size. Then, a n-panel will be the (n-1)-th viewport height size after the start of the page.
 
 The simple way to go to some panel is
