@@ -29,6 +29,12 @@ manager.GoToPanel(2); // go to the third panel
 manager.GoToPanel(n); // go to the (n-1)-th panel
 ```
 
+To go to specific Id
+```javascript
+const manager = new PanelScrollManager();
+manager.GoToID("place1");
+```
+
 Set a default behavior
 ```javascript
 const manager = new PanelScrollManager();

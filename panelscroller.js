@@ -33,6 +33,12 @@ class PanelScrollManager{
 		})
 	}
 
+	GoToId(id){
+		document.getElementById(id).scrollIntoView({
+       		behavior: this._behavior
+      	})	
+	}
+
 	// Got to the panel `index`, the first panel is 0. You can use 'smooth', 'instant', 'auto' for behavior, default is 'smooth'.
 	GoToPanelWithBehavior(index,behavior){
 		let temp = this._behavior;
